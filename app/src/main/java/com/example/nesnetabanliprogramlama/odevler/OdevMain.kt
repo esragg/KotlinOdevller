@@ -54,5 +54,9 @@ fun main() {
 
         */
 //6
+    val maasHesabi  = Maas()
+
+    val sonucMaas = maasHesabi.maasHesapla(22)
+    println("Maas: $sonucMaas")
 
 }
